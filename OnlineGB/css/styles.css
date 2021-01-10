@@ -1,0 +1,326 @@
+*{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+body{
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1172px;
+    margin: auto;
+}
+
+/* Шапка сайта */
+
+.primary{
+    background-color: #445162;
+}
+
+.cap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.column{
+    width: 50%;
+}
+
+.headline{
+    padding-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 60px;
+}
+
+.cap-list{
+    margin-bottom: 19px;
+}
+
+.cap-item{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.cap-item:nth-child(1n+1)::before{
+    content: url(../img/Ok.svg);
+    margin-right: 5px;
+}
+
+.column-img{
+    padding: 25px 50px;
+    text-align: right;
+}
+
+/* Тело сайта */
+
+    /* Статья about-products */
+.about-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article-header{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.description{
+    list-style: none;
+}
+
+.description-item{
+    margin-bottom: 11px;
+    line-height: 24px;
+}
+  
+    /* Секция dignity */
+
+.dignity{
+    background-color: #F5F5F5;
+}
+
+.header{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.dignity-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 42px 535px 42px 535px;
+    grid-template-rows: 6em 6em 6em;
+}
+
+.dignity-item{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+    /* Секция Screenshots */
+.screen-description{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto
+}
+.screen-description:last-child{
+    padding-left: 0px;
+}
+
+.scriin-list{
+    display: flex;
+}
+
+.screen-item{
+    margin-bottom: 41px;
+}
+
+.screen-img{
+    float: left;
+    margin-right: 14px;
+}
+
+.screen-head{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 13px;
+    margin-top: 0px;
+}
+
+.screen-text{
+    font-size: 16px;
+    line-height: 24px
+}
+
+    /* Секция Review */
+
+.reviews{
+    background-color: #F5F5F5;
+}
+
+.review-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto
+}
+
+.review-img{
+    padding-left: 32px;
+}
+.review-item{
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-left: 14px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.outside-triangle{
+    background-image: url(../img/quote-img.svg);
+    background-repeat: no-repeat;
+    background-position:left 32px;
+}
+
+.review-text{
+    margin-top: 0px;
+    padding: 16px 10px 5px 15px;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.autor-topic{
+    color: #989898;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+    /* Секция Donate */
+
+.price-list{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.payment{
+    background-color: #445162;
+    border: 2px solid  #445162;
+    border-radius: 5px;
+    height: auto;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+
+.paiment-item{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 51px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    height: 51px;
+}
+
+.price{
+    background-color: #ffffff;
+    height: 71px;
+    font-size: 40px;
+    line-height: 71px;
+    text-align: center;
+    margin: 0px;
+}
+
+.price-summ{
+    text-align: center;
+    line-height: 71px;
+    height: auto;
+}
+
+.ability{
+    margin-bottom: 0px;
+}
+
+.ability-item{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.buy-button{
+    margin: 19px;
+    width: 262px;
+    height: 43px;
+    border-radius: 5px;
+}
+
+    /* Footer */
+
+.header-contacts{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+}
+
+.message-area{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+
+.message{
+    border-radius: 5px;
+    margin-bottom: 18px;
+    color: #445162;
+    width: 503px;
+    height: 173px;
+}
+
+.send-message{
+    width: 143px;
+    height: 43px;
+    align-self: center;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.info-area{
+    border-radius: 5px;
+    margin-bottom: 18px;
+    color: #445162;
+    width: 503px;
+    height: 43px;
+}
+
+.contacts-list{
+    color: white;
+    list-style: none;
+}
+
+.contacts-item{
+    margin-bottom: 20px;
+}
+
+.platform{
+    list-style: none;
+    display: flex;
+}
+.ending{
+    background-color: #445162;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+}
